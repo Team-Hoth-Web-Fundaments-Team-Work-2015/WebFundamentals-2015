@@ -4,6 +4,15 @@ table {
     height: 10%;
     text-transform: uppercase;
 }
+#container {
+    border-radius: 10px;    
+    position: absolute;       
+    white-space: nowrap;
+    width: 1300px;
+    height: 550px;  
+    background: #00923E;
+    padding: 20px;
+}
     table a {
         text-decoration: none;
         color: white;
@@ -15,11 +24,20 @@ table {
     }
     table #second-row{
         list-style-type: none;
-        margin-right: 1150px;
+        text-align: left;
+        margin-right: 1000px;
     }
          #second-row li {
             margin: 2px;
             display: inline;
             font-weight: bold;
         } 
+    table #third-row{
+        list-style-type: none;
+        text-align: right;
+    }
+    #third-row li {
+            margin: 10px 20px 0;
+            display: inline;
+            font-weight: bold;
 }
