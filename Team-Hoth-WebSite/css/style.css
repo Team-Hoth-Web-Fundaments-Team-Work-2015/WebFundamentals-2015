@@ -62,7 +62,10 @@ a{
 }
 a:link {
     text-decoration: none;
+}
 
+a:hover{
+	color: #000;
 }
 
 #middle-colector{
@@ -135,7 +138,11 @@ p span{
 	height: 33px;
 	line-height: 2;
 	background-color: rgba(98, 91, 85, 0.8);
+}
 
+.bottom > div > a:hover{
+	background-color: #EE7504;
+	color: #fff;
 }
 
 .bottom > div > img{
