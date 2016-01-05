@@ -17,10 +17,11 @@ body{
 	height: 50px;
 }
 
-.top>header>img{
+#image{
 	width: 58px;
 	height: 40px;
 }
+
 
 nav{
 	width: 552px;
