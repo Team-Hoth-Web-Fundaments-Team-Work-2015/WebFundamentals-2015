@@ -6,24 +6,10 @@
     <link href="css/images-artwork-styles.css" rel="stylesheet" />
 </head>
 <body>
-    <!--tweet button-->
-    <script>
-        !function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-            if (!d.getElementById(id)) {
-                js = d.createElement(s);
-                js.id = id;
-                js.src = p + '://platform.twitter.com/widgets.js';
-                fjs.parentNode.insertBefore(js, fjs);
-            }
-        }(document, 'script', 'twitter-wjs');
-    </script>
-    <!--end of social media-->
-
     <div class="wrapper">
         <section class="top">
             <header>
-                <img src="Logo/softuni.png" alt="SoftUni Logo" />
+                <a href="index.html"><img src="Logo/softuni.png" alt="SoftUni Logo" /></a>
                 <nav>
                     <ul>
                         <li><a href="jokes.html">Jokes</a></li>
@@ -40,92 +26,91 @@
                 <div class="text-related-to-image">
                     Definitely not an artist...
                 </div>
-                <div class="social-media-buttons">
-                   <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <!--need to check if working correctly when site is live-->
-                </div>
                 <img src="images/artist-programmer-1795186.jpeg" />
                 <div class="text-related-to-image">
                     The Chuck Norris way!
-                </div>
-                <div class="social-media-buttons">
-                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <!--need to check if working correctly when site is live-->
                 </div>
                 <img src="images/chuck-norris-dont-write-code.jpg" />
                 <div class="text-related-to-image">
                     How safe are your passwords??...
                 </div>
-                <div class="social-media-buttons">
-                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <!--need to check if working correctly when site is live-->
-                </div>
                 <img src="images/computer jokes - password foot.gif" />
                 <div class="text-related-to-image">
                     Pun...INTENDED.
-                </div>
-                <div class="social-media-buttons">
-                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <!--need to check if working correctly when site is live-->
                 </div>
                 <img src="images/eel.jpg" />
                 <div class="text-related-to-image">
                     Help!
                 </div>
-                <div class="social-media-buttons">
-                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <!--need to check if working correctly when site is live-->
-                </div>
                 <img src="images/geek-developers-241356.jpeg" />
                 <div class="text-related-to-image">
                     Being creative is not a sin
-                </div>
-                <div class="social-media-buttons">
-                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <!--need to check if working correctly when site is live-->
                 </div>
                 <img src="images/imagesbug_20vs_20feature_small.jpg" />
                 <div class="text-related-to-image">
                     So true
                 </div>
-                <div class="social-media-buttons">
-                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <!--need to check if working correctly when site is live-->
-                </div>
                 <img src="images/joke-programmer-is-alternate.jpg" />
                 <div class="text-related-to-image">
                     No middle ground?
-                </div>
-                <div class="social-media-buttons">
-                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <!--need to check if working correctly when site is live-->
                 </div>
                 <img src="images/web-designer-developer-jokes-humour-funny-41.jpg" />
                 <div class="text-related-to-image">
                     Focus
                 </div>
-                <div class="social-media-buttons">
-                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <!--need to check if working correctly when site is live-->
-                </div>
                 <img src="images/xprogrammer_joke1.jpg.pagespeed.ic.8LgY47KRc-.jpg" />
                 <div class="text-related-to-image">
                     Zero, One, Two, Three
-                </div>
-                <div class="social-media-buttons">
-                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <!--need to check if working correctly when site is live-->
                 </div>
                 <img src="images/apples.jpg" />
                 <div class="text-related-to-image">
                     End users create the need for QA
                 </div>
-                <div class="social-media-buttons">
-                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <!--need to check if working correctly when site is live-->
-                </div>
                 <img src="images/end-user.gif" />
             </article>
             <article id="outside-links">
                 <h5>Other programming humor sites</h5>
-                <input type="button" onclick="location.href = 'http://digitalsynopsis.com/design/web-designer-developer-jokes-humour-funny/';" value="Web Design" /><br />
-                <input type="button" onclick="location.href = 'https://devhumor.com/';" value="DevHumor" /><br />
-                <input type="button" onclick="location.href = 'https://www.reddit.com/r/ProgrammerHumor/';" value="Reddit's version" /><br />
-                <input type="button" onclick="location.href = 'https://www.pinterest.com/explore/programming-humor/';" value="Pinned humor" />
+                <div class="link-line">
+                    <div class="description">Web design jokes and more</div>
+                    <input type="button" onclick="location.href = 'http://digitalsynopsis.com/design/web-designer-developer-jokes-humour-funny/';" value="Take me there" />
+                </div>
+                <div class="link-line">
+                    <div class="description">Developers' humor</div>
+                    <input type="button" onclick="location.href = 'https://devhumor.com/';" value="Take me there" /><br />
+                </div>
+                <div class="link-line">
+                    <div class="description">On Reddit</div>
+                    <input type="button" onclick="location.href = 'https://www.reddit.com/r/ProgrammerHumor/';" value="Take me there" /><br />
+                </div>
+                <div class="link-line">
+                    <div class="description">On Pinterest</div>
+                    <input type="button" onclick="location.href = 'https://www.pinterest.com/explore/programming-humor/';" value="Take me there" />
+                </div>
                 <h5>And several awesome image sites</h5>
-                <input type="button" onclick="location.href = 'http://imgur.com';" value="Imgur" /><br />
-                <input type="button" onclick="location.href = 'http://uberhumor.com/';" value="UberHumor" /><br />
-                <input type="button" onclick="location.href = 'http://www.eatliver.com/';" value="Eatliver" /><br />
-                <input type="button" onclick="location.href = 'http://funnyjunk.com/';" value="FunnyJunk" />
+                <div class="link-line">
+                    <div class="description">Imgur</div>
+                    <input type="button" onclick="location.href = 'http://imgur.com';" value="Take me there" /><br />
+                </div>
+                <div class="link-line">
+                    <div class="description">UberHumor</div>
+                    <input type="button" onclick="location.href = 'http://uberhumor.com/';" value="Take me there" /><br />
+                </div>
+                <div class="link-line">
+                    <div class="description">EatLiver</div>
+                    <input type="button" onclick="location.href = 'http://www.eatliver.com/';" value="Take me there" /><br />
+                </div>
+                <div class="link-line">
+                    <div class="description">FunnyJunk</div>
+                    <input type="button" onclick="location.href = 'http://funnyjunk.com/';" value="Take me there" />
+                </div>
+                <div class="social-media">
+                    <span class="button fb">
+                        <!--need to add site address once it's live--><a href="http://www.facebook.com/share.php?u=https://awesomesite.com&title=Awesome Site"><img src="images/facebook.png" alt="">Share It</a>
+                    </span>
+                    <span class="button twit">
+                        <!--need to add site address once it's live--><a href="http://twitter.com/intent/tweet?status=Awesome Site+www.awesomesite.com"><img src="images/twitter_standing.png" alt="">Tweet It</a>
+                    </span>
+                </div>
             </article>
         </section>
     </div>
