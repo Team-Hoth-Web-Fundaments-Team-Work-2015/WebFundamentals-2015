@@ -1,18 +1,60 @@
 .middle {
-	display: flex;
+	padding: 0px;
+	margin: 35px 50px;
+	display: inline-block;
+	width: 900px;	
 }
 
-.middle ul div {
-	width: 300px;
-	height: 200px;
-	border: 1px solid yellow;
-	margin-bottom: 15px;
+h4 {
+	margin: 20px 0px;
+	text-shadow: 2px 0px 4px #EE7504;
+	font-size: 1.5em;
 }
 
-.middle ul div img {
-	width: 170px;
-    height: 200px;
+.middle > div {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.middle > div > div {
+	margin-right: 7px;
+	display: inline-block;
+	width: 290px;
+	height: 175px;
+	color: black;
+	text-align: center;
+	overflow: hidden;
+	background-color: rgb(255, 242, 204);
+	font-size: 0.8em;
+	border-radius: 2px;
+
+}
+
+.middle > div > div > img {
+	width: 150px;
+    height: 175px;
     border-radius: 2px;
+    float: left;
+    display: inline-block;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+span {
+	color:  #EE7504;
+}
+
+a:hover {
+	background-color: #EE7504;
+	color: #fff;
+	border-radius: 2px;
+}
+
+.middle > div > div > div {
+	margin-bottom: 10px;
 }
 
 .bottom > .us > a {
