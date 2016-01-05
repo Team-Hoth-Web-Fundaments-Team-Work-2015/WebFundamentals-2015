@@ -1,0 +1,18 @@
+@media all and (max-width: 1020px){
+	.wrapper{
+		width: 100%;
+	}
+
+	#middle-colector{
+		width: 39%;
+	}
+
+	.article{
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 631px){
+
+}
