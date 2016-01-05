@@ -3,28 +3,35 @@
     src: url(/fonts/Kush.ttf);
 }
 
+/* NAKOV TOUGHT SECTION */
 
 .nakov-reaction {
+    height: 440px;
     position: absolute;
     background-color: grey;
     margin-top: 5px;
-    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     font-family: Calibri;
     font-weight: bold;
 }
 
 .header-reaction {
     width: 900px;
+    height: 50px;
     margin: 0px auto;
+    text-align: center;
+    margin-top: -14px;
     text-align: center;
     text-transform: uppercase;
     background-color: #efad2d;
     border: 1px solid black;
-    border-radius: 10px;
-    margin-top: 10px;
+    border-top: grey;
+    top: -10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
-
-
 
 .website-image {
     position: relative;
@@ -43,11 +50,14 @@
 
 .nakov-image-taught > span {
     font-size: 20px;
-    background-color: #efad2d;
+    background-color: #93857d;
+    color: white;
+    letter-spacing: 1px;
+    opacity: 0.9;
     position: absolute;
-    width: 225px;
+    width: 235px;
     height: 90px;
-    right: 220px;
+    right: 230px;
     top: 80px;
     padding: 10px;
     border-radius: 15px;
@@ -63,5 +73,29 @@
     margin-right: 10px;
     border: 1px solid black ;
     border-radius: 20px;
+}
+
+/* OTHER PICK UP'S SECTION */
+
+.some-other-picks {
+    width: 999px;
+    height: 300px;
+    position: absolute;
+    top: 504px;
+    background-color: #efad2d;
+}
+
+.header-other-picks {
+    width: 480px;
+    height: 50px;
+    margin: 0px auto;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: grey;
+    border: 1px solid black;
+    border-top-color: grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bold;
 }
 
