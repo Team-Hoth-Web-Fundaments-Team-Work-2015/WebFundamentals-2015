@@ -75,11 +75,12 @@
     border-radius: 20px;
 }
 
+
 /* OTHER PICK UP'S SECTION */
 
 .some-other-picks {
-    width: 999px;
-    height: 300px;
+    width: 1000px;
+    height: 620px;
     position: absolute;
     top: 504px;
     background-color: #efad2d;
@@ -99,3 +100,52 @@
     font-weight: bold;
 }
 
+.all-pickups {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.all-pickups > .odd-lines-of-pickups {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    border: 1px solid black;
+    border-top-left-radius: 95px;
+    border-bottom-right-radius: 95px;
+    margin-top: 10px;
+}
+
+.all-pickups > .even-lines-of-pickups {
+    width: 50%;
+    float: right;
+    direction: rtl;
+    padding: 15px;
+    border: 1px solid black;
+    border-top-right-radius: 95px;
+    border-bottom-left-radius: 95px;
+    margin-top: 10px;
+}
+
+/* FOOTER PICK UP'S FOOTER */
+.footer-area {
+    position: absolute;
+    width: 1000px;
+    height: 100px;
+    background-color: #7f7f7f;
+    margin-top: 1055px;
+}
+
+.footer-area > p {
+    width: 480px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: grey;
+    margin-top: -50px;
+    margin-left: 250px;
+    border: 1px solid black;
+    border-bottom-color: grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+}
