@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Kush";
+    src: url(/fonts/Kush.ttf);
+}
+
+
+.nakov-reaction {
+    position: absolute;
+    background-color: grey;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.header-reaction {
+    width: 900px;
+    margin: 0px auto;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #efad2d;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+
+.website-image {
+    position: relative;
+    width: 450px;
+    height: 350px;
+    border: 1px solid black ;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+.nakov-image-taught {
+    float: right;
+}
+
+.nakov-image-taught > span {
+    font-size: 20px;
+    background-color: #efad2d;
+    position: absolute;
+    width: 225px;
+    height: 90px;
+    right: 220px;
+    top: 80px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.nakov-image {
+    float: right;
+    width: 480px;
+    height: 350px;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid black ;
+    border-radius: 20px;
+}
+
