@@ -7,6 +7,10 @@
     border-radius: 15px;
 }
 
+h2 {
+	margin: 45px 0px 10px 30px;
+}
+
 h4 {
 	margin: 20px 0px;
 	text-shadow: 2px 0px 4px #EE7504;
@@ -56,17 +60,35 @@ span {
 }
 
 p > a:hover {
-	background-color: #EE7504;
-	color: #fff;
+	border: 1px solid #EE7504;
 	border-radius: 2px;
-	padding: 1px 3px;
 }
 
 .middle > div > div > div {
 	margin-bottom: 10px;
 }
 
-.bottom > .us > a {
-	background-color: #EE7504;
-	color: #fff;
+.bottom {
+	display: inline-block;
+	height: 200px;
+	width: 1000px;
+	background-color: #808080;
+	border-radius: 15px;
+	color: black;
+}
+
+.bottom > p {
+	margin: 2px 30px;
+}
+
+.bottom > p > a {
+	color: black;
+}
+
+.bottom > img {
+	width: 400px;
+    height: 180px;
+    float: right;
+    border-radius: 5px;
+    margin: 10px 30px;
 }
