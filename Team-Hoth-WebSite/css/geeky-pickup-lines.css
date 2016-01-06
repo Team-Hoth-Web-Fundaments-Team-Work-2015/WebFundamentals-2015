@@ -763,3 +763,199 @@ p.geek-application > a:hover {
         color: orangered;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    /* NAKOV TOUGHT SECTION */
+
+    .nakov-reaction {
+        height: 160px;
+        position: absolute;
+        background-color: grey;
+        margin-top: 5px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        font-weight: bold;
+    }
+
+    .header-reaction {
+        width: 480px;
+        margin: 0px auto;
+        border-top: grey;
+    }
+
+    .header-reaction > p {
+        width: 380px;
+        height: 30px;
+        font-size: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-wrap: normal;
+        margin-top: 0px;
+        line-height: 30px;
+        background-color: #eeac2d;
+        border: 1px solid black;
+        border-top: none;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .website-image {
+        position: relative;
+        width: 205px;
+        height: 120px;
+        border: 1px solid black ;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        float: left;
+    }
+    .nakov-image-taught {
+        float: right;
+    }
+
+    .nakov-image-taught > span {
+        font-size: 9px;
+        background-color: #93857d;
+        color: white;
+        letter-spacing: 1px;
+        opacity: 0.9;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: 110px;
+        top: 35px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .nakov-image {
+        float: right;
+        width: 205px;
+        height: 120px;
+        border: 1px solid black ;
+        border-radius: 20px;
+    }
+
+
+    /* OTHER PICK UP'S SECTION */
+
+    .some-other-picks {
+        width: 480px;
+        height: 290px;
+        position: absolute;
+        top: 225px;
+        background-color: #efad2d;
+    }
+
+    .header-other-picks {
+        font-size: 10px;
+        letter-spacing: 1px;
+        width: 380px;
+        height: 30px;
+        margin: 0px auto;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: grey;
+        border: 1px solid black;
+        border-top-color: grey;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-weight: bold;
+        line-height: 5px;
+    }
+
+    .all-pickups {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+
+    .all-pickups > .odd-lines-of-pickups {
+        width: 46%;
+        float: left;
+        padding: 3px;
+        border: 1px solid black;
+        border-left: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin-top: 10px;
+        clear: both;
+    }
+
+    .all-pickups > .even-lines-of-pickups {
+        width: 47%;
+        float: right;
+        direction: rtl;
+        padding: 3px;
+        border: 1px solid black;
+        border-right: none;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-top: 10px;
+    }
+
+    .even-lines-of-pickups:hover {
+        background-color: black;
+        font-size: 16px;
+        color: white;
+    }
+
+    .odd-lines-of-pickups:hover {
+        background-color: black;
+        font-size: 16px;
+        color: white;
+    }
+
+    /* FOOTER PICK UP'S FOOTER */
+    .footer-area {
+        position: absolute;
+        width: 480px;
+        height: 50px;
+        background-color: #7f7f7f;
+        margin-top: 450px;
+    }
+
+    .footer-area > p {
+        width: 380px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        text-transform: uppercase;
+        background-color: grey;
+        margin-top: -30px;
+        margin-left: 35px;
+        border: 1px solid black;
+        border-bottom-color: grey;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-weight: bold;
+    }
+
+    .wanna-be-geek {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    .footer-area > .geek-application {
+        width: 480px;
+        letter-spacing: 2px;
+        font-size: 15px;
+        word-spacing: 2px;
+        text-align: center;
+        text-transform: uppercase;
+        border: none;
+        line-height: 15px;
+        background: none;
+        margin: 0px auto;
+        font-weight: bold;
+        color: black;
+        text-shadow:0 0 2px #fff, 0 0 5px #fff;
+    }
+
+    p.geek-application > a {
+        color: black;
+    }
+
+    p.geek-application > a:hover {
+        color: orangered;
+    }
+}
