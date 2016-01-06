@@ -71,3 +71,13 @@ pre {
     padding: 15px;
     border-radius: 15px;
 }
+
+.reallyslow {
+    -vendor-animation-duration: 6s;
+    -vendor-animation-delay: 3s;
+}
+
+.slow {
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 1s;
+}

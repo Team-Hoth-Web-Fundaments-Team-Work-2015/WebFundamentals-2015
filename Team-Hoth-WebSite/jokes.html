@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jokes</title>
     <link rel="stylesheet" href="css/jokes-styles.css" />
-    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/animate.css" />        
 </head>
 <body>
     <div class="wrapper">
@@ -22,8 +23,8 @@
             </nav>
           </header>
       </section>
-      <section class="jokes">
-          <article class="rotateIn animated">
+      <section class="jokes">         
+          <article class="aniview animated reallyslow" av-animation="slideInLeft">
         <pre>A man flying in a hot air balloon suddenly realizes he’s lost. He reduces height and spots a man down below. He lowers the balloon further and shouts to get directions, "Excuse me, can you tell me where I am?"
 
 The man below says: "Yes. You're in a hot air balloon, hovering 30 feet above this field."
@@ -41,7 +42,14 @@ The man below replies, "You must work in management."
 "Well", says the man, "you don’t know where you are or where you’re going, but you expect me to be able to help. You’re in the same position you were before we met, but now it’s my fault."
          </pre>
           </article>
-          <article class="rotateIn animated">
+          <article class="aniview animated reallyslow" av-animation="slideInLeft">
+             <pre>
+Q: "Whats the object-oriented way to become wealthy?"
+
+A: Inheritance
+            </pre>
+            </article>
+          <article class="aniview animated reallyslow" av-animation="slideInLeft">
         <pre>“Knock, knock.”
 
 “Who’s there?”
@@ -51,14 +59,21 @@ very long pause….
 “Java.”
          </pre>
           </article>
-          <article class="rotateIn animated">
+          <article class="aniview animated reallyslow" av-animation="slideInLeft">
          <pre>	
 Q: how many programmers does it take to change a light bulb?
 
 A: none, that's a hardware problem
          </pre>
           </article>
-          <article class="rotateIn animated">
+          <article class="aniview animated reallyslow" av-animation="slideInLeft">
+              <pre>
+Programming is like sex:
+
+One mistake and you have to support it for the rest of your life.
+              </pre>
+          </article>
+          <article class="aniview animated reallyslow" av-animation="slideInLeft">
               <pre>
 A computer science student is studying under a tree and another pulls up on a flashy new bike. The first student asks, “Where’d you get that?”
 
@@ -67,7 +82,7 @@ The student on the bike replies, “While I was studying outside, a beautiful gi
 The first student responds, “Good choice! Her clothes probably wouldn’t have fit you.”
               </pre>
           </article>
-          <article class="rotateIn animated">
+          <article class="aniview animated reallyslow" av-animation="slideInLeft">
               <pre>
 A physicist, an engineer and a programmer were in a car driving over a steep alpine pass when the brakes failed. The car was getting faster and faster, they were struggling to get round the corners and once or twice only the feeble crash barrier saved them from crashing down the side of the mountain. They were sure they were all going to die, when suddenly they spotted an escape lane. They pulled into the escape lane, and came safely to a halt.
 
@@ -77,8 +92,17 @@ The engineer said "I think I've got a few spanners in the back. I'll take a look
 
 The programmer said "Why don't we get going again and see if it's reproducible?"
               </pre>
-          </article>          
+          </article>                 
       </section>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-aniview-master/jquery.aniview.min.js"></script>
+    <script>
+        var options = {
+    animateThreshold: 100,
+    scrollPollInterval: 20
+}
+$('.aniview').AniView(options);
+    </script>
 </body>
 </html>
