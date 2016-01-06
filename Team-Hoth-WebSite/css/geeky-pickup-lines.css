@@ -1,7 +1,8 @@
 @font-face {
-    font-family: "Kush";
-    src: url(/fonts/Kush.ttf);
+    font-family: RicksAmericanNF;
+    src: url(/fonts/RicksAmericanNF.ttf);
 }
+
 
 /* NAKOV TOUGHT SECTION */
 
@@ -12,7 +13,6 @@
     margin-top: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    font-family: Calibri;
     font-weight: bold;
 }
 
@@ -24,8 +24,10 @@
 
 .header-reaction > p {
     height: 50px;
+    font-size: 18px;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 2px;
     margin-top: 0px;
     background-color: #eeac2d;
     border: 1px solid black;
@@ -80,13 +82,15 @@
 
 .some-other-picks {
     width: 1000px;
-    height: 370px;
+    height: 450px;
     position: absolute;
     top: 504px;
     background-color: #efad2d;
 }
 
 .header-other-picks {
+    font-size: 16px;
+    letter-spacing: 1px;
     width: 480px;
     height: 50px;
     margin: 0px auto;
@@ -112,7 +116,7 @@
 }
 
 .all-pickups > .even-lines-of-pickups {
-    width: 48%;
+    width: 47%;
     float: right;
     direction: rtl;
     padding: 15px;
@@ -123,13 +127,25 @@
     margin-top: 10px;
 }
 
-/* FOOTER PICK UP'S FOOTER */
+.even-lines-of-pickups:hover {
+    background-color: black;
+    font-size: 16px;
+    color: white;
+}
+
+.odd-lines-of-pickups:hover {
+    background-color: black;
+    font-size: 16px;
+    color: white;
+}
+
+    /* FOOTER PICK UP'S FOOTER */
 .footer-area {
     position: absolute;
     width: 1000px;
-    height: 100px;
+    height: 55px;
     background-color: #7f7f7f;
-    margin-top: 810px;
+    margin-top: 865px;
 }
 
 .footer-area > p {
@@ -148,14 +164,31 @@
     font-weight: bold;
 }
 
+.wanna-be-geek {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
 
-.footer-area > p.geek-application {
-    width: 600px;
-    height: 50px;
+.footer-area > .geek-application {
+    width: 1000px;
+    height: 30px;
+    letter-spacing: 1px;
+    font-size: 25px;
     text-align: center;
-    line-height: 50px;
+    line-height: 20px;
     text-transform: uppercase;
     border: none;
+    background: none;
     margin: 0px auto;
     font-weight: bold;
+    color: black;
+    text-shadow:0 0 2px #fff, 0 0 5px #fff;
+}
+
+p.geek-application > a {
+    color: black;
+}
+
+p.geek-application > a:hover {
+    color: orangered;
 }
