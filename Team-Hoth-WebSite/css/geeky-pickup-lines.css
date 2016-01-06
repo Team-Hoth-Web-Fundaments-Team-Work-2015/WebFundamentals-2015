@@ -80,7 +80,7 @@
 
 .some-other-picks {
     width: 1000px;
-    height: 620px;
+    height: 370px;
     position: absolute;
     top: 504px;
     background-color: #efad2d;
@@ -100,29 +100,26 @@
     font-weight: bold;
 }
 
-.all-pickups {
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
 .all-pickups > .odd-lines-of-pickups {
-    width: 50%;
+    width: 45%;
     float: left;
     padding: 15px;
     border: 1px solid black;
-    border-top-left-radius: 95px;
-    border-bottom-right-radius: 95px;
+    border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     margin-top: 10px;
 }
 
 .all-pickups > .even-lines-of-pickups {
-    width: 50%;
+    width: 48%;
     float: right;
     direction: rtl;
     padding: 15px;
     border: 1px solid black;
-    border-top-right-radius: 95px;
-    border-bottom-left-radius: 95px;
+    border-right: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     margin-top: 10px;
 }
 
@@ -132,7 +129,7 @@
     width: 1000px;
     height: 100px;
     background-color: #7f7f7f;
-    margin-top: 1055px;
+    margin-top: 810px;
 }
 
 .footer-area > p {
