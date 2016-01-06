@@ -38,6 +38,11 @@ h4 {
     display: inline-block;
 }
 
+.top > header > img{
+	width: 58px;
+	height: 40px;
+}
+
 p {
 	margin: 0;
 	padding: 0;
