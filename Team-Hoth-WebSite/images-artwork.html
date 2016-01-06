@@ -2,8 +2,10 @@
 <html>
 <head>
     <title>Images and Artwork</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8" />
     <link href="css/images-artwork-styles.css" rel="stylesheet" />
+    <link href="css/images-artwork-responsive.css" rel="stylesheet" />
 </head>
 <body>
     <div class="wrapper">
@@ -13,7 +15,6 @@
                 <nav>
                     <ul>
                         <li><a href="jokes.html">Jokes</a></li>
-                        <li><a href="videos.html">Videos</a></li>
                         <li><a href="images-artwork.html">Images&Artwork</a></li>
                         <li><a href="geeky-pick-up-lines.html">Geeky Pick Up Lines</a></li>
                         <li><a href="about-us">About Us</a></li>
@@ -68,40 +69,49 @@
                 </div>
                 <img src="images/end-user.gif" />
             </article>
+            <article id="margin"></article>
             <article id="outside-links">
                 <h5>Other programming humor sites</h5>
                 <div class="link-line">
-                    <div class="description">Web design jokes and more</div>
-                    <input type="button" onclick="location.href = 'http://digitalsynopsis.com/design/web-designer-developer-jokes-humour-funny/';" value="Take me there" />
+                    <div class="description">Web design jokes</div>
+                    <input type="button" class="long" onclick="window.open('http://digitalsynopsis.com/design/web-designer-developer-jokes-humour-funny/');" value="Take me there" />
+                    <input type="button" class="short" onclick="window.open('http://digitalsynopsis.com/design/web-designer-developer-jokes-humour-funny/');" value="more" />
                 </div>
                 <div class="link-line">
                     <div class="description">Developers' humor</div>
-                    <input type="button" onclick="location.href = 'https://devhumor.com/';" value="Take me there" /><br />
+                    <input type="button" class="long" onclick="window.open('https://devhumor.com/');" value="Take me there" />
+                    <input type="button" class="short" onclick="window.open('https://devhumor.com/');" value="more" />
                 </div>
                 <div class="link-line">
                     <div class="description">On Reddit</div>
-                    <input type="button" onclick="location.href = 'https://www.reddit.com/r/ProgrammerHumor/';" value="Take me there" /><br />
+                    <input type="button" class="long" onclick="window.open('https://www.reddit.com/r/ProgrammerHumor/');" value="Take me there" />
+                    <input type="button" class="short" onclick="window.open('https://www.reddit.com/r/ProgrammerHumor/');" value="more" />
                 </div>
                 <div class="link-line">
                     <div class="description">On Pinterest</div>
-                    <input type="button" onclick="location.href = 'https://www.pinterest.com/explore/programming-humor/';" value="Take me there" />
+                    <input type="button" class="long" onclick="window.open('https://www.pinterest.com/explore/programming-humor/');" value="Take me there" />
+                    <input type="button" class="short" onclick="window.open('https://www.pinterest.com/explore/programming-humor/');" value="more" />
                 </div>
                 <h5>And several awesome image sites</h5>
                 <div class="link-line">
                     <div class="description">Imgur</div>
-                    <input type="button" onclick="location.href = 'http://imgur.com';" value="Take me there" /><br />
+                    <input type="button" class="long" onclick="window.open('http://imgur.com');" value="Take me there" />
+                    <input type="button" class="short" onclick="window.open('http://imgur.com');" value="more" />
                 </div>
                 <div class="link-line">
                     <div class="description">UberHumor</div>
-                    <input type="button" onclick="location.href = 'http://uberhumor.com/';" value="Take me there" /><br />
+                    <input type="button" class="long" onclick="window.open('http://uberhumor.com/');" value="Take me there" />
+                    <input type="button" class="short" onclick="window.open('http://uberhumor.com/');" value="more" />
                 </div>
                 <div class="link-line">
                     <div class="description">EatLiver</div>
-                    <input type="button" onclick="location.href = 'http://www.eatliver.com/';" value="Take me there" /><br />
+                    <input type="button" class="long" onclick="window.open('http://www.eatliver.com/');" value="Take me there" />
+                    <input type="button" class="short" onclick="window.open('http://www.eatliver.com/');" value="more" />
                 </div>
                 <div class="link-line">
                     <div class="description">FunnyJunk</div>
-                    <input type="button" onclick="location.href = 'http://funnyjunk.com/';" value="Take me there" />
+                    <input type="button" class="long" onclick="window.open('http://funnyjunk.com/');" value="Take me there" />
+                    <input type="button" class="short" onclick="window.open('http://funnyjunk.com/');" value="more" />
                 </div>
                 <div class="social-media">
                     <span class="button fb">
