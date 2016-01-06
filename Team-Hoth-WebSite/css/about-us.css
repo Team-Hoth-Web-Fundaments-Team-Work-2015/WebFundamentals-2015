@@ -38,11 +38,6 @@ h4 {
     display: inline-block;
 }
 
-.top > header > img{
-	width: 58px;
-	height: 40px;
-}
-
 p {
 	margin: 0;
 	padding: 0;
@@ -52,10 +47,11 @@ span {
 	color:  #EE7504;
 }
 
-a:hover {
+p > a:hover {
 	background-color: #EE7504;
 	color: #fff;
 	border-radius: 2px;
+	padding: 1px 3px;
 }
 
 .middle > div > div > div {
