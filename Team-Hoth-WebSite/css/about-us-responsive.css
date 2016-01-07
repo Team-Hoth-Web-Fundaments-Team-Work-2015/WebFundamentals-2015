@@ -1,4 +1,4 @@
-@media all and (max-width: 1020px) {
+@media all and (max-width: 1000px) {
 	.wrapper {
 		width: 100%;
 	}
@@ -39,10 +39,32 @@
 
 }
 
-@media (max-width: 631px) {
+@media (max-width: 640px) {
+
+	.top > header {
+		text-align: center;
+	}
+
+	nav {
+		margin-top: 30px;
+		display: block;
+		float: none;
+		width: 100%;
+	}
+
+	nav > ul > li {
+		letter-spacing: 0px;
+		float: none;
+		height: 25px;
+		display: block;
+	}
 
 	h1 {
 		margin: 0px 0px 20px;
+	}
+
+	.middle {
+		margin: 130px auto;
 	}
 
 	.middle > div > div {
