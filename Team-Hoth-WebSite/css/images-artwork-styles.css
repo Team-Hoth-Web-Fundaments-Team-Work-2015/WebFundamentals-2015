@@ -28,7 +28,8 @@ body {
           width: 58px;
           height: 40px; }
         body .wrapper .top header nav {
-          float: right;
+          width: 552px;
+		  float: right;
           display: flex;
           height: 40px;
           margin-top: 8px;
@@ -44,9 +45,10 @@ body {
               top: 2px;
               letter-spacing: 1px;
               transform: rotate(-180deg);
-              font-size: 19px; }
+              font-size: 16px; }
               body .wrapper .top header nav ul li a {
                 color: #EE7504;
+				font-size: 16px;
                 text-decoration: none;}
 				body .wrapper .top header nav ul li a span {
 					display: none;
