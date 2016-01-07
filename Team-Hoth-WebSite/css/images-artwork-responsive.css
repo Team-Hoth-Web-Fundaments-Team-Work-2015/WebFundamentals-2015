@@ -1,0 +1,139 @@
+﻿@-ms-viewport {
+    width: device-width;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+    body .wrapper {
+        width: 100%;
+        height: auto;
+    }
+
+        body .wrapper .top {
+            display: block;
+            height: auto;
+        }
+
+            body .wrapper .top header {
+                width: 100%;
+                border-bottom: 2px solid black;
+                max-height: 50px;
+                display: flex;
+                flex-direction: row;				
+                justify-content: space-between;
+            }
+
+                body .wrapper .top header a img {
+                    width: 58px;
+                    height: 40px;
+                }
+
+                body .wrapper .top header nav {
+                    height: auto;
+					width: 220px;
+                }
+
+                    body .wrapper .top header nav ul {
+                        display: flex;
+                        flex-direction: row;
+                    }
+					
+				body .wrapper .top header nav .long-menu{
+				  display: none; }
+				  
+				body .wrapper .top header nav .short-menu{
+				  display: flex;
+				  }
+
+				body .wrapper .top header nav .short-menu li {
+				  padding-bottom: 14px;
+				  font-size: 18px;
+				  font-weight: bold;
+				  margin-right: 1%;
+				  }
+
+				body .wrapper .top header nav .short-menu li a {					
+				  background-color: grey;
+				  padding-left: 2px;
+				  padding-right: 2px;
+				  color: white;
+				}
+				    
+
+        body .wrapper .middle {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+            body .wrapper .middle #margin {
+                display: none;
+            }
+
+            body .wrapper .middle #own-images {
+                width: 100%;
+            }
+
+                body .wrapper .middle #own-images .text-related-to-image {
+                    color: black;
+                }
+
+                body .wrapper .middle #own-images img:hover {
+                    width: 100%;
+                }
+
+            body .wrapper .middle #outside-links {
+                display: none;
+            }
+}
+
+@media (min-width: 640px) and (max-width: 1000px) {
+    body .wrapper {
+        width: 100%;
+    }
+
+        body .wrapper .top {
+            display: block;
+        }
+
+            body .wrapper .top header {
+                width: 100%;
+                border-bottom: 2px solid black;
+                max-height: 50px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            body .wrapper .top img {
+                width: 58px;
+                height: 40px;
+            }
+			
+			body .wrapper .top header nav .short-menu{
+				  display: none; }
+
+        body .wrapper .middle {
+            width: 100%;
+        }
+
+            body .wrapper .middle #outside-links h5 {
+                font-size: 0.8em;
+            }
+
+            body .wrapper .middle #outside-links .link-line {
+                font-size: 0.8em;
+            }
+
+                body .wrapper .middle #outside-links .link-line .description {
+                    width: 60%;
+                }
+
+                body .wrapper .middle #outside-links .link-line .long {
+                    display: none;
+                }
+
+                body .wrapper .middle #outside-links .link-line .short {
+                    display: inline;
+                    text-align: center;
+                }
+}
